@@ -15,6 +15,17 @@ import android.view.MenuItem;
 
 import com.andyfriends.showcase.R;
 
+/**
+ * YOU DON'T NEED TO PAY ATTENTION TO THIS
+ *
+ *
+ * This is just a default Android Application with a Navigation Drawer
+ *
+ *
+ * JUST LOOK AT {@link SplashActivity}
+ *
+ *
+ */
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
