@@ -1,2 +1,5 @@
-# Android-personal-showcase
-A personal repository /app showing my most recent codes
+# A personal app showcase
+
+I wanna keep this repository full of nice stuff
+
+Started at 2017-04-08
