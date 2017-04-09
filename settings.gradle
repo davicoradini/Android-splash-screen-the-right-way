@@ -1,1 +1,1 @@
-include ':app', ':vrequest'
+include ':app'
