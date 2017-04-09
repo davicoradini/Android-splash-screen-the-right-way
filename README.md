@@ -19,27 +19,27 @@ public class SplashActivity {
 }
 ```
 
-You must know that probably I'd hate your apps, because this is a 3 seconds waisting of life time!
+You must know that I'd probably hate your apps, because this is a 3 seconds waisting of life time!
 
 ##### As you can notice, Google has gotten their opinion in favor of Splash Screens on their [Official Material Design Documentation](https://material.io/guidelines/patterns/launch-screens.html)
 
-###### But, is this something you just put anyway on your app to make the user waist his time?
+###### But, is this something you just put anyway on your app to make the user waste his time?
 
 ##### No. And Google advocated against splash screens like this, and even called it an anti-pattern [on this video](https://www.youtube.com/watch?v=pEGWcMTxs3I&feature=youtu.be&t=1434).
 
-##### So, is there a way to make use of this pattern on the right way? The answer is Yes!
+##### So, is there a way to make use of this pattern on the right way? The answer is, Yes!
 
-#### So, how could one do to create a Splash Screen just for the amount of time the App needs to open the Main Activity?
+## So, how could one do to create a Splash Screen just for the amount of time the App needs to open the Main Activity?
 
 ##### Well, actually, it's easy. The ingredients are:
 
 * An Activity for the Splash Screen (without the layout file)
 * Your Manifest: to declare you Splash Screen as the Launcher
-* One drawable file to customize it a little
+* One drawable file to customize the splash screen a little
 
  *The splash view has to be ready immediately, even before you can inflate a layout file in your splash activity.*
 
-##### The recipe:
+## The recipe:
 
 ###### Create your Splash Screen Activity
 
@@ -74,7 +74,7 @@ activity_splash.xml
 </layer-list>
 ```
 
-and you Manifest should look something like this
+and your Manifest should look something like this
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -103,10 +103,12 @@ and you Manifest should look something like this
 </manifest>
 ```
 
-we've set a different Theme for the SplashActivity so we can
+we've set a different Theme for the SplashActivity, so we can call our drawable resource on it
 
 ```xml
 <style name="SplashScreen" parent="Theme.AppCompat.NoActionBar">
     <item name="android:windowBackground">@drawable/activity_splash</item>
 </style>
 ```
+
+That is it. You can clone the project using Android Studio and take a look.
