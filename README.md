@@ -1,6 +1,6 @@
 # How to use a Splash screen correctly
 
-I need to be straight. So, if you're used to create your SplashScreen like this:
+Well, there are a lot of blog tutorials teaching how to create a splash screen like this:
 
 ```java
 public class SplashActivity {
@@ -19,7 +19,7 @@ public class SplashActivity {
 }
 ```
 
-You must know that I'd probably hate your apps, because this is a 3 seconds waisting of life time!
+The thing is, this is nothing but a 3 seconds waisting of the user's time!
 
 ##### As you can notice, Google has gotten their opinion in favor of Splash Screens on their [Official Material Design Documentation](https://material.io/guidelines/patterns/launch-screens.html)
 
